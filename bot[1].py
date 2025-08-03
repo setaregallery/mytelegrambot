@@ -2,7 +2,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-TOKEN = 'YOUR_BOT_TOKEN_HERE'  # <<<<< جای این متن توکن ربات خودت رو بذار
+TOKEN = @noorvebinarbot
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
