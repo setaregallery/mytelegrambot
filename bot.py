@@ -2,7 +2,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-TOKEN = @noorvebinarbot
+TOKEN = 8437611346:AAEIf5jO6p1qCLxlg12o6nAfJhFDtEaY8oU
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
